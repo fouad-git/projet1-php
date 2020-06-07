@@ -21,14 +21,12 @@ if(isset($_POST['tab3'])){
 
    
     for($i = 0; $i<11; $i++){
-      echo "$table3" .' '. "x" .' '. "$i" .' '. "=" . $table3 * $i . "<br/>";
+      echo "$table3" .' '. "x" .' '. "$i" .' '. "=" .' '. $table3 * $i . "<br/>";
     
     }
     
   } 
-   else {
-      echo "pas encore de chiffre entrée";
-        }
+   
  
    
       
