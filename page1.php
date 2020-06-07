@@ -10,13 +10,14 @@
 <h1 class="page1">Table de multiplication de 3 !</h1>
 <div class="tab3">
 <form  action="page1.php" type="hidden" method="post">
-<input type="hidden"  value="3">
-<input type="submit" name="tab3" value="afficher">
+<input type="hidden"  name="tab3">
+
 </form>
 
  <?php
 if(isset($_POST['tab3'])){
     $table3 = ($_POST['tab3']);
+    $table3 = 3;
 
    
     for($i = 0; $i<11; $i++){
